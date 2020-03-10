@@ -1,0 +1,32 @@
+#container {
+    background-color: #F8DD67;
+    height: 120px;
+}
+
+#menuButton {
+    height: 100px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+#homeButton {
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#tutorialButton {
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#quizButton {
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
