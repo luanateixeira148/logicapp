@@ -1,6 +1,11 @@
 #content {
     background-color: #FFF8D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 #boy2 {
     height: 400px;
