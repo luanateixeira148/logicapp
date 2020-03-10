@@ -1,0 +1,23 @@
+#container {
+    background-color: #FFF3BC;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 7;
+    align-items: center;
+    grid-column-gap: 15px;
+    padding-right: 10px;
+}
+
+#next_text {
+    grid-column: 7;
+    text-align-last: right;
+    text-decoration: none;
+}
+
+#next_icon {
+    height: 35px;
+    width: auto;
+    grid-column: 8;
+    align-self: center;
+}
+
