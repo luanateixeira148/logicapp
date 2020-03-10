@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ded3.css">
+    <link rel="stylesheet" href="menu/menu_styles.css">
+    <link rel="stylesheet" href="footer/footer_styles.css">
+
 </head>
 <body>
+    <!-- header -->
+    <div id="container" onclick="toggleNavigation()">
+        <img id="quizButton" src="imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="imgs/home.svg" alt="">
+        <img id="menuButton" src="imgs/menu.svg" alt="">
+        <script src="menu/menu_script.js"></script>
+    </div>
+
+    <!-- content -->
     <div id="content">
     <p id="firstpar">
         Dogs cannot fly.<br>
         Buddy is a dog. <br>
         Therefore Buddy cannot fly.
     </p>
-
     <img src="flying.png" id="flying">
-
     <p id="secondpar">
         Do you think this statement is true?
     </p>
-</div>
+    </div>
+
+    <!-- footer -->
+    <div id="container">
+        <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
+        <img id="next_icon" src="imgs/next.png" alt="nexticon">
+        <script src="footer/footer_script.js"></script>
+    </div>
+
 </body>
 </html>
