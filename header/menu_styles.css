@@ -15,6 +15,10 @@
     position: absolute;
     left: 30px;
     top: 30px;
+    /* display:none; */
+    /* left: -30px; */
+    width: 0;
+    transition: width 1s;
 }
 
 #tutorialButton {
@@ -22,6 +26,10 @@
     position: absolute;
     left: 30px;
     top: 30px;
+    /* display:none; */
+    /* left: -30px; */
+    width: 0;
+    transition: width 1s;
 }
 
 #quizButton {
@@ -29,4 +37,8 @@
     position: absolute;
     left: 30px;
     top: 30px;
+    /* display:none; */
+    /* left: -30px; */
+    width: 0;
+    transition: width 1s;
 }
