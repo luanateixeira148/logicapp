@@ -1,3 +1,14 @@
+#content{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width:100vw;
+}
+
+
+
 #firsrpar{
     font-size: 18px;
 
@@ -5,4 +16,9 @@
 
 #secondpar{
     font-size: 29px;  
+}
+
+#flying{
+    height:300px;
+    width: auto;
 }
