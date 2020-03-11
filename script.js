@@ -1,7 +1,8 @@
-var tut_ind = -1;
+var tut_ind = 0;
 var tut = [
     {
         title:"Logic with Fun",
+        text1:"",
         tutorialImage:"imgs/puzzle.png",
         text2:"Team members <br> Luana Teixeira A00987987 <br> Seunghee Park A01165868 <br> Pooneh A01020726",
         next_text:"Let's go!"
