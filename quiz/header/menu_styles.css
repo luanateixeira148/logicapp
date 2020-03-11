@@ -1,6 +1,10 @@
 #headercontainer {
     background-color: #F8DD67;
     height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #menuButton {
@@ -41,4 +45,8 @@
     /* left: -30px; */
     width: 0;
     transition: width 1s;
+}
+
+#title {
+
 }
