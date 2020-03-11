@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content/content_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+    <link rel="stylesheet" href="footer/footer_styles.css">
+    <link rel="stylesheet" href="buttons/yes3.css">
+
+</head>
+<body>
+    <!-- header -->
+    <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="imgs/home.svg" alt="">
+        <img id="menuButton" src="imgs/menu.svg" alt="">
+        <script src="menu/menu_script.js"></script>
+    </div>
+
+    <!-- content -->
+    <div id="content">
+        <p id="text">
+            Dogs cannot fly.<br>
+            Buddy is a dog. <br>
+            Therefore Buddy cannot fly.
+        </p>
+        <img src="flying.png" id="flying">
+        <h2 id="question">
+            Do you think this statement is true?
+        </h2>
+    </div>
+
+    <!-- buttons -->
+    <div id="buttonscontainer">
+        <div id="yes3" onclick="border()">YES</div>
+        <div id="no3" onclick="border()">NO</div>
+        <script src="buttons/yes3.js"></script>
+    </div>
+
+    <!-- footer -->
+    <div id="footercontainer">
+        <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
+        <img id="next_icon" src="imgs/next.png" alt="nexticon">
+        <script src="footer/footer_script.js"></script>
+    </div>
+
+
+</body>
+</html>
