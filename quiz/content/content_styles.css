@@ -1,8 +1,8 @@
-body {
+/* body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
-}
+} */
 
 #content{
     display:flex;
@@ -12,19 +12,21 @@ body {
     text-align: center;
 }
 
-
-
-#firsrpar{
+/* #text{
     font-size: 18px;
-    
-
 }
 
-#secondpar{
+#question{
     font-size: 29px;  
-}
+} */
 
 #flying{
     height:300px;
     width: auto;
+}
+
+#buttons {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
 }
