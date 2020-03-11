@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ded3.css">
-    <link rel="stylesheet" href="menu/menu_styles.css">
+    <link rel="stylesheet" href="content/content_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
     <link rel="stylesheet" href="footer/footer_styles.css">
 
 </head>
 <body>
     <!-- header -->
-    <div id="container" onclick="toggleNavigation()">
+    <div id="headercontainer" onclick="toggleNavigation()">
         <img id="quizButton" src="imgs/quiz.svg" alt="">
         <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
         <img id="homeButton" src="imgs/home.svg" alt="">
@@ -21,23 +21,24 @@
 
     <!-- content -->
     <div id="content">
-    <p id="firstpar">
-        Dogs cannot fly.<br>
-        Buddy is a dog. <br>
-        Therefore Buddy cannot fly.
-    </p>
-    <img src="flying.png" id="flying">
-    <p id="secondpar">
-        Do you think this statement is true?
-    </p>
+        <p id="text">
+            Dogs cannot fly.<br>
+            Buddy is a dog. <br>
+            Therefore Buddy cannot fly.
+        </p>
+        <img src="flying.png" id="flying">
+        <h2 id="question">
+            Do you think this statement is true?
+        </h2>
     </div>
 
     <!-- footer -->
-    <div id="container">
+    <div id="footercontainer">
         <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
         <img id="next_icon" src="imgs/next.png" alt="nexticon">
         <script src="footer/footer_script.js"></script>
     </div>
+
 
 </body>
 </html>
