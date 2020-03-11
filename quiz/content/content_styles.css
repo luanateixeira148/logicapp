@@ -4,7 +4,7 @@
     margin: 0px;
 } */
 
-#content{
+#contentQuiz{
     display:flex;
     justify-content:center;
     align-items: center;
@@ -29,4 +29,11 @@
     height: 100px;
     width: 100%;
     background-color: blue;
+}
+
+#topbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

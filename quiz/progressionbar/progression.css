@@ -1,0 +1,15 @@
+#progressionBar {
+    background-color: palegoldenrod;
+    border: solid 5px goldenrod;
+    border-radius: 20px;
+    width: 80%;
+    height: 30%;
+}
+
+#progression {
+    background-color: chocolate;
+    border-radius: 15px;
+    width: 33%;
+    height: 100%;
+    max-width: 100%;
+}

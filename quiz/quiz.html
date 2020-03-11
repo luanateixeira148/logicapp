@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content/content_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+    <link rel="stylesheet" href="footer/footer_styles.css">
+    <link rel="stylesheet" href="buttons/ind2.css">
+    <link  rel="stylesheet" href="progressionbar/progression.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="imgs/home.svg" alt="">
+        <img id="menuButton" src="imgs/menu.svg" alt="">
+        <h1 id="title">Question 1</h1>
+        <script src="header/menu_script.js"></script>
+    </div>
+
+    <!-- content -->
+    <div id="content">
+        <div id="topbar">
+            <div id="progressionBar">
+                <div id="progression"></div>
+                <script src="progressionbar/progression.js"></script>
+            </div>
+        </div>
+
+        <div id="contentQuiz">
+            <div id="contenttext">
+                <p id="text">
+                    The CANUCKS have LOST their last seven games. <br>
+                    Thus, they will probably lose their next game.
+                </p>
+            </div>
+            <div id="quizimg">
+                <img src="imgs/canucs.jpg" id="flying">
+                <h2 id="question">
+                        What type of reasoning is this?
+                </h2>
+            </div>
+        </div>
+
+            <!-- buttons -->
+        <div id="buttonscontainer">
+            <div id="ind2" onclick="border()">INDUCTIVE</div>
+            <div id="ded2" onclick="border()">DEDUCTIVE</div>
+            <script src="buttons/ind2.js"></script>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footercontainer" onclick="gettingBigger()">
+        <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
+        <img id="next_icon" src="imgs/next.png" alt="nexticon">
+        <script src="footer/footer_script.js"></script>
+    </div>
+
+
+</body>
+
+</html>
