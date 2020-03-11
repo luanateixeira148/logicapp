@@ -39,30 +39,33 @@
                     Thus, they will probably lose their next game.
                 </p>
             </div>
-            <div id="quizimg">
-                <img src="imgs/canucs.jpg" id="flying">
-                <h2 id="question">
-                        What type of reasoning is this?
-                </h2>
+            <div id="quizimgcontainer">
+                <img src="imgs/hockey1.png" id="quizimg">
             </div>
         </div>
 
             <!-- buttons -->
-        <div id="buttonscontainer">
-            <div id="ind2" onclick="border()">INDUCTIVE</div>
-            <div id="ded2" onclick="border()">DEDUCTIVE</div>
-            <script src="buttons/ind2.js"></script>
+        <div id="questioncontainer">
+            <h2 id="question">
+                What type of reasoning is this?
+            </h2>
+            <div id="buttonscontainer">
+                <div id="ind2" onclick="border()">INDUCTIVE</div>
+                <div id="ded2" onclick="border()">DEDUCTIVE</div>
+                <script src="buttons/ind2.js"></script>
+            </div>
         </div>
     </div>
 
     <!-- footer -->
-    <div id="footercontainer" onclick="gettingBigger()">
+    <div id="footercontainer" onclick="quizGoToNext()">
         <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
         <img id="next_icon" src="imgs/next.png" alt="nexticon">
         <script src="footer/footer_script.js"></script>
     </div>
 
-
+<script src="quiz_array.js"></script>
+<script src="quiz_functions.js"></script>
 </body>
 
 </html>

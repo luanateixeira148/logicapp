@@ -20,9 +20,13 @@
     font-size: 29px;  
 } */
 
-#flying{
+#quizimg{
     height:300px;
     width: auto;
+}
+
+#question {
+    text-align: center;
 }
 
 #buttons {
