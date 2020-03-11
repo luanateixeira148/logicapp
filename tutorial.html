@@ -4,28 +4,29 @@
 <head>
     <link rel="stylesheet" href="footer/footer_styles.css">
     <link rel="stylesheet" href="content/content.css">
-    <link rel="stylesheet" href="menu/menu_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
 </head>
 
 <body>
     <!-- Header -->
-    <div id="container" onclick="toggleNavigation()">
+    <div id="headercontainer" onclick="toggleNavigation()">
         <img id="quizButton" src="imgs/quiz.svg" alt="">
         <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
         <img id="homeButton" src="imgs/home.svg" alt="">
         <img id="menuButton" src="imgs/menu.svg" alt="">
-        <script src="menu/menu_script.js"></script>
+        <h1 id="title">What is reasoning</h1>
+        <script src="header/menu_script.js"></script>
     </div>
 
     <!-- Content -->
     <div id="content">
-        <h2>You better learn</h2>
-        <img id="boy2" src="imgs/boyidea.png" alt="">
-        <h2>what reasoning is.</h2>
+        <h2 id="text1">You better learn</h2>
+        <img id="tutorialImage" src="imgs/boyidea.png" alt="">
+        <h2 id="text2">what reasoning is.</h2>
     </div>
 
     <!-- Footer -->
-    <div id="container">
+    <div id="footercontainer" onclick="GoToNext()">
         <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
         <img id="next_icon" src="imgs/next.png" alt="nexticon">
         <script src="footer/footer_script.js"></script>
@@ -34,7 +35,6 @@
     <!-- Script -->
     <script src="tutorial.js"></script>
     <script src="script.js"></script>
-    <script src="quiz.js"></script>
 </body>
 
 </html>

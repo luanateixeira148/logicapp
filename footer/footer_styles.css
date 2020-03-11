@@ -1,4 +1,4 @@
-#container {
+#footercontainer {
     background-color: #FFF3BC;
     height: 20%;
     display: grid;
@@ -20,4 +20,3 @@
     grid-column: 8;
     align-self: center;
 }
-
