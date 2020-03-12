@@ -7,7 +7,7 @@ tut2image: "imgs/flying.png",
 text2: "Do you think this statement is true?",
 next_text: "Check Answer",
 },
-//buttons
+//0buttons
 
 
 {title: "Deductive Reasoning",
@@ -15,7 +15,7 @@ text1: "In Deductive reasoning, we can get to a conclusion based on at least two
 tut2image: "imgs/failing.png",
 text2: "In this example, 'Dogs cannot fly'  and 'Buddy is a dog' are two  true statements, so the conclusion is true.",
 next_text: "Next",
-//we need a green div on top of the page- Right
+//1we need a green div on top of the page- Right
 
 },
 
@@ -24,7 +24,7 @@ text1: "In Deductive reasoning, we can get to a conclusion based on at least two
 tut2image: "imgs/failing.png",
 text2: "In this example, 'Dogs cannot fly'  and 'Buddy is a dog' are two  true statements, so the conclusion is true.",
 next_text: "Next",
-//we need a red div on top of the page- Wrong 
+//2we need a red div on top of the page- Wrong 
 
 },
 
@@ -33,7 +33,7 @@ text1: "In Buddy loves swimming. Buddy is a dog. Therefore, all dogs love swimmi
 tut2image: "imgs/shower.png",
 text2: "Do you think this statement is true?",
 next_text: "Check Answer",
-//buttons?
+//3buttons?
 },
 
 {title: "Inductive Reasoning",
@@ -41,7 +41,7 @@ text1: "In Inductive reasoning, you get to a general conclusion based on two spe
 tut2image: "imgs/shower.png",
 text2: "In this example, “Buddy loves swimming” and “Buddy is a dog” but you cannot generalize that all dogs love swimming.",
 next_text: "Next",
-//we need a green div on top of the page- Right
+//4we need a green div on top of the page- Right
 
 },
 
@@ -50,7 +50,7 @@ text1: "In Inductive reasoning, you get to a general conclusion based on two spe
 tut2image: "imgs/shower.png",
 text2: "In this example, “Buddy loves swimming” and “Buddy is a dog” but you cannot generalize that all dogs love swimming.",
 next_text: "Next",
-//we need a red div on top of the page- wrong
+//5we need a red div on top of the page- wrong
 
 },
 
