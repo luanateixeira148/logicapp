@@ -1,5 +1,8 @@
 function quizGoToNext() {
     quiz_ind++;
+    if(quiz_ind===1) {
+        document.querySelector("#progressionBar").style.display = "none";
+    }
     document.querySelector("#title").innerText = quiz[quiz_ind].title;
     document.querySelector("#text").innerText = quiz[quiz_ind].text;
     document.querySelector("#quizimg").src = quiz[quiz_ind].quizimg;
