@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="header/menu_styles.css">
     <link rel="stylesheet" href="footer/footer_styles.css">
     <link rel="stylesheet" href="buttons/ind2.css">
-    <link  rel="stylesheet" href="progressionbar/progression.css" />
+    <link rel="stylesheet" href="progressionbar/progression.css" />
 </head>
 
 <body>
@@ -24,6 +24,11 @@
     </div>
 
     <!-- content -->
+    <!-- Green and Red div -->
+    <div id="rightwrong">
+        <h1>RIGHT!</h1>
+    </div>
+
     <div id="content">
         <div id="topbar">
             <div id="progressionBar">
@@ -44,14 +49,14 @@
             </div>
         </div>
 
-            <!-- buttons -->
+        <!-- buttons -->
         <div id="questioncontainer">
             <h2 id="question">
                 What type of reasoning is this?
             </h2>
             <div id="buttonscontainer">
-                <div id="ind2" onclick="border()">INDUCTIVE</div>
-                <div id="ded2" onclick="border()">DEDUCTIVE</div>
+                <div id="ind2" onclick="border1()">INDUCTIVE</div>
+                <div id="ded2" onclick="border2()">DEDUCTIVE</div>
                 <script src="buttons/ind2.js"></script>
             </div>
         </div>
@@ -64,8 +69,8 @@
         <script src="footer/footer_script.js"></script>
     </div>
 
-<script src="quiz_array.js"></script>
-<script src="quiz_functions.js"></script>
+    <script src="quiz_array.js"></script>
+    <script src="quiz_functions.js"></script>
 </body>
 
 </html>

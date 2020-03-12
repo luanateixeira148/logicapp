@@ -3,8 +3,6 @@ var quiz = [
 // question 01
     {
         title: "Question 01",
-        // progression
-        // rightwrong
         text: "The CANUCKS have LOST their last seven games. Thus, they will probably lose their next game.",
         quizimg: "imgs/hockey1.png",
         // questioncontainer
