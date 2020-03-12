@@ -44,9 +44,10 @@
 
 #bottomanswer {
     display: none;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
     width:100%;
-    height:100px;
+    height:auto;
     background-color: #F8DD67;
 }

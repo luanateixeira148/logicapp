@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 37px;
+    color: #5B4392;
+}
+
+h2 {
+    /* next button */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h4 {
+    /* yellow buttons */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
