@@ -1,7 +1,10 @@
 
 function GoToNext() {
     tut_ind++;
-    if(tut_ind === 4){
+    if(tut_ind === 5){
+        document.querySelector("#ind1").style.display = "flex";
+        document.querySelector("#ded1").style.display = "flex";
+        document.querySelector("#button1").style.display = "flex";
         //display buttons
     }
     document.querySelector("#title").innerText = tut[tut_ind].title;

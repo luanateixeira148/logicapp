@@ -6,7 +6,8 @@ var tut = [
         tutorialImage:"imgs/puzzle.png",
         text2:"Team members <br> Luana Teixeira A00987987 <br> Seunghee Park A01165868 <br> Pooneh A01020726",
         next_text:"Let's go!",
-        next_icon:"imgs/next.png"
+        next_icon:"imgs/next.png",
+        // button1: ""
     },
 
     {
