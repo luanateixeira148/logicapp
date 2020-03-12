@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="buttons/yes3.css">
 
 </head>
+
 <body>
     <!-- header -->
     <div id="headercontainer" onclick="toggleNavigation()">
@@ -17,36 +19,40 @@
         <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
         <img id="homeButton" src="imgs/home.svg" alt="">
         <img id="menuButton" src="imgs/menu.svg" alt="">
-        <script src="menu/menu_script.js"></script>
+        <h1 id="title">Deductive Reasoning</h1>
+        <script src="header/menu_script.js"></script>
     </div>
 
     <!-- content -->
     <div id="content">
-        <p id="text">
+        <!--  BLUE DIV ON TOP -->
+        <p id="text1">
             Dogs cannot fly.<br>
             Buddy is a dog. <br>
             Therefore Buddy cannot fly.
         </p>
-        <img src="flying.png" id="flying">
-        <h2 id="question">
+        <img src="flying.png" id="tut2image">
+        <h2 id="text2">
             Do you think this statement is true?
         </h2>
     </div>
 
     <!-- buttons -->
     <div id="buttonscontainer">
-        <div id="yes3" onclick="border()">YES</div>
-        <div id="no3" onclick="border()">NO</div>
+        <div id="button1" onclick="border1()">YES</div>
+        <div id="button2" onclick="border2()">NO</div>
         <script src="buttons/yes3.js"></script>
     </div>
 
     <!-- footer -->
-    <div id="footercontainer">
-        <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
+    <div id="footercontainer" onclick="GoToNext()">
+        <h2 id="next_text" onmouseover="underline()" >Let's get started!</h2>
         <img id="next_icon" src="imgs/next.png" alt="nexticon">
         <script src="footer/footer_script.js"></script>
     </div>
 
-
+<script src="tutorial2script.js"></script>
+<script src="tutorial2.js"></script>
 </body>
+
 </html>
