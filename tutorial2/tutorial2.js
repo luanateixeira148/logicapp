@@ -4,9 +4,9 @@ document.querySelector("#tut2image").src = tut[tut_ind].tut2image;
 document.querySelector("#text2").innerText = tut[tut_ind].text2;
 document.querySelector("#next_text").innerText = tut[tut_ind].next_text; 
 
-function saveAnswer(n){
-   tut_answer = n;
-}
+// function saveAnswer(n){
+//    tut_answer = n;
+// }
 
 function GoToNext(){
     tut_ind++;
@@ -29,29 +29,26 @@ function GoToNext(){
     if(tut_ind===1 || tut_ind===2 || tut_ind===4 || tut_ind===5 || tut_ind===6) {
         document.querySelector("#buttonscontainer").style.display="none";
         document.querySelector("#button1").style.display="none";
-        document.querySelector("#button2").style.display="none";
-    } 
+        document.querySelector("#button2").style.display="none";} 
 
     if (tut_ind===0 || tut_ind===3 ) {
         document.querySelector("#buttonscontainer").style.display="flex";
         document.querySelector("#button1").style.display="flex";
-        document.querySelector("#button2").style.display="flex";
-    }
+        document.querySelector("#button2").style.display="flex";}
+
+
+    if(tut_ind===2 || tut_ind===5){
+    document.querySelector("#rightwrong").style.display="flex";
+    document.querySelector("#rightwrong").style.backgroundColor="#fa7070";
+    document.querySelector("#rightwrong h1").innerText="WRONG";}
 
     if(tut_ind===1 || tut_ind===4){
         document.querySelector("#rightwrong").style.display="flex";
         document.querySelector("#rightwrong").style.backgroundColor="#50c878";
-        document.querySelector("#rightwrong h1").innerText="RIGHT";  
-     } 
- 
-    if(tut_ind===2 || tut_ind===5){
-    document.querySelector("#rightwrong").style.display="flex";
-    document.querySelector("#rightwrong").style.backgroundColor="#fa7070";
-    document.querySelector("#rightwrong h1").innerText="WRONG";
-    
- }else{
-    document.querySelector("#rightwrong").style.display="none";  
- }
+        document.querySelector("#rightwrong h1").innerText="RIGHT";}
+
+ else{
+    document.querySelector("#rightwrong").style.display="none";}
   
 
 }
