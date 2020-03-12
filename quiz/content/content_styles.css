@@ -1,9 +1,3 @@
-/* body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
-} */
-
 #contentQuiz{
     display:flex;
     justify-content:center;
@@ -11,14 +5,6 @@
     flex-direction: column;
     text-align: center;
 }
-
-/* #text{
-    font-size: 18px;
-}
-
-#question{
-    font-size: 29px;  
-} */
 
 #quizimg{
     height:300px;
@@ -54,4 +40,13 @@
 
 #rightwrong h1 {
     color: white;
+}
+
+#bottomanswer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100px;
+    background-color: #F8DD67;
 }
