@@ -1,4 +1,5 @@
 var tut_ind =0;
+
 var tut = [
 {title: "Deductive Reasoning",
 text1: "Dogs cannot fly. Buddy is a dog, therefore Buddy cannot fly.",
@@ -6,6 +7,7 @@ tut2image: "imgs/flying.png",
 text2: "Do you think this statement is true?",
 next_text: "Check Answer",
 },
+//buttons
 
 
 {title: "Deductive Reasoning",
