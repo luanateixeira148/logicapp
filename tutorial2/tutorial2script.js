@@ -25,32 +25,26 @@ var tut = [
     },
     {
         title: "Inductive Reasoning",
-        text1: "Buddy loves swimming. Buddy is a dog. Therefore, all dogs love swimming.",
+        text1: "Buddy loves swimming. Buddy is a dog. Therefore, all dogs love swimming." ,
         tut2image: "imgs/shower.png",
         text2: "Do you think this statement is true?",
         next_text: "Check Answer",
-        //3buttons?
-    },
+        right: {
+            title: "Inductive Reasoning",
+            text1: "In Inductive reasoning, you get to a general conclusion based on two specific instances. The conclusion is not certain, but MIGHT be true.",
+            tut2image: "imgs/shower.png",
+            text2: "In this example, “Buddy loves swimming” and “Buddy is a dog” but you cannot generalize that all dogs love swimming.",
+            next_text: "Next",},
+            wrong: {
+                title: "Inductive Reasoning",
+                text1: "In Inductive reasoning, you get to a general conclusion based on two specific instances. The conclusion is not certain, but MIGHT be true.",
+                tut2image: "imgs/shower.png",
+                text2: "In this example, “Buddy loves swimming” and “Buddy is a dog” but you cannot generalize that all dogs love swimming.",
+                next_text: "Next",},
+ },
 
-    {
-        title: "Inductive Reasoning",
-        text1: "In Inductive reasoning, you get to a general conclusion based on two specific instances. The conclusion is not certain, but MIGHT be true.",
-        tut2image: "imgs/shower.png",
-        text2: "In this example, “Buddy loves swimming” and “Buddy is a dog” but you cannot generalize that all dogs love swimming.",
-        next_text: "Next",
-        //4we need a green div on top of the page- Right
-
-    },
-
-    {
-        title: "Inductive Reasoning",
-        text1: "In Inductive reasoning, you get to a general conclusion based on two specific instances. The conclusion is not certain, but MIGHT be true.",
-        tut2image: "imgs/shower.png",
-        text2: "In this example, “Buddy loves swimming” and “Buddy is a dog” but you cannot generalize that all dogs love swimming.",
-        next_text: "Next",
-        //5we need a red div on top of the page- wrong
-
-    },
+    
+ 
 
     {
         title: "Quiz Time",

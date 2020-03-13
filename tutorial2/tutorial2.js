@@ -4,12 +4,11 @@ document.querySelector("#tut2image").src = tut[tut_ind].tut2image;
 document.querySelector("#text2").innerText = tut[tut_ind].text2;
 document.querySelector("#next_text").innerText = tut[tut_ind].next_text;
 
-function saveAnswer(n) {
+function tutorial2SaveAnswer(n) {
     tut_answer = n;
 }
 
-function GoToNext() {
-    console.log(tut_answer)
+function Tutorial2GoToNext() {
     if (tut_answer === 1) {
         //show correct text
         document.querySelector("#title").innerText = tut[tut_ind].right.title;
@@ -23,7 +22,6 @@ function GoToNext() {
             
             document.querySelector("#buttonscontainer").style.display = "none";
         tut_answer = 0;
-        console.log(tut_answer)
     }
 
     else if (tut_answer === 2) {
@@ -40,9 +38,9 @@ function GoToNext() {
         tut_answer = 0;
         console.log(tut_answer)
     }
+    
     else {
         tut_ind++;
-        
         document.querySelector("#buttonscontainer").style.display = "flex";
         document.querySelector("#rightwrong").style.display = "none";
         document.querySelector("#title").innerText = tut[tut_ind].title;
@@ -50,9 +48,14 @@ function GoToNext() {
         document.querySelector("#tut2image").src = tut[tut_ind].tut2image;
         document.querySelector("#text2").innerText = tut[tut_ind].text2;
         document.querySelector("#next_text").innerText = tut[tut_ind].next_text;
-
-
+        
+        console.log(tut_ind)
+        if (tut_ind===2)   {
+        document.querySelector("#buttonscontainer").style.display = "none";
+   
+     }
+        
     }
-
 }
+
 
