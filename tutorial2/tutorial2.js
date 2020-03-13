@@ -4,11 +4,11 @@ document.querySelector("#tut2image").src = tut[tut_ind].tut2image;
 document.querySelector("#text2").innerText = tut[tut_ind].text2;
 document.querySelector("#next_text").innerText = tut[tut_ind].next_text;
 
-function saveAnswer(n) {
+function tutorial2SaveAnswer(n) {
     tut_answer = n;
 }
 
-function GoToNext() {
+function Tutorial2GoToNext() {
     console.log(tut_answer)
     if (tut_answer === 1) {
         //show correct text
@@ -18,10 +18,10 @@ function GoToNext() {
         document.querySelector("#text2").innerText = tut[tut_ind].right.text2;
         document.querySelector("#next_text").innerText = tut[tut_ind].right.next_text;
         document.querySelector("#rightwrong").style.display = "flex";
-            document.querySelector("#rightwrong").style.backgroundColor = "#50C878";
-            document.querySelector("#rightwrong h1").innerText = "RIGHT";
+        document.querySelector("#rightwrong").style.backgroundColor = "#50C878";
+        document.querySelector("#rightwrong h1").innerText = "RIGHT";
             
-            document.querySelector("#buttonscontainer").style.display = "none";
+        document.querySelector("#buttonscontainer").style.display = "none";
         tut_answer = 0;
         console.log(tut_answer)
     }
@@ -33,10 +33,10 @@ function GoToNext() {
         document.querySelector("#text2").innerText = tut[tut_ind].wrong.text2;
         document.querySelector("#next_text").innerText = tut[tut_ind].wrong.next_text;
         document.querySelector("#rightwrong").style.display = "flex";
-            document.querySelector("#rightwrong").style.backgroundColor = "#fa7070";
-            document.querySelector("#rightwrong h1").innerText = "WRONG";
+        document.querySelector("#rightwrong").style.backgroundColor = "#fa7070";
+        document.querySelector("#rightwrong h1").innerText = "WRONG";
             
-            document.querySelector("#buttonscontainer").style.display = "none";
+        document.querySelector("#buttonscontainer").style.display = "none";
         tut_answer = 0;
         console.log(tut_answer)
     }
