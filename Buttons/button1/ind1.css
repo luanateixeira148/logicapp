@@ -1,0 +1,12 @@
+#ind1, #ded1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+        height:auto;
+    width:20%;
+    background-color:#F8DD67;
+    padding: 10px;
+    box-shadow: 1px 1px 5px grey;
+
+}
+

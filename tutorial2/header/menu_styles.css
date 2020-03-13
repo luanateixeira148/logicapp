@@ -1,0 +1,48 @@
+#headercontainer {
+    background-color: #F8DD67;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menuButton {
+    height: 100px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+#homeButton {
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    /* display:none; */
+    /* left: -30px; */
+    width: 0;
+    transition: width 1s;
+}
+
+#tutorialButton {
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    /* display:none; */
+    /* left: -30px; */
+    width: 0;
+    transition: width 1s;
+}
+
+#quizButton {
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    /* display:none; */
+    /* left: -30px; */
+    width: 0;
+    transition: width 1s;
+}

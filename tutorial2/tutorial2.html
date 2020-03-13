@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content/content_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+    <link rel="stylesheet" href="footer/footer_styles.css">
+    <link rel="stylesheet" href="buttons/yes3.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header -->
+    <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="imgs/home.svg" alt="">
+        <img id="menuButton" src="imgs/menu.svg" alt="">
+        <h1 id="title">Deductive Reasoning</h1>
+        <script src="header/menu_script.js"></script>
+    </div>
+    
+    <!-- content -->
+        <!-- Green and Red div -->
+    <div id="rightwrong"><h1>RIGHT!</h1></div>
+
+    <div id="content">
+        <p id="text1">
+            Dogs cannot fly.<br>
+            Buddy is a dog. <br>
+            Therefore Buddy cannot fly.
+        </p>
+        <img src="flying.png" id="tut2image">
+        <h3 id="text2">
+            Do you think this statement is true?
+        </h3>
+    </div>
+
+    <!-- buttons -->
+    <div id="buttonscontainer">
+        <div id="button1" onclick="border1(); saveAnswer(1)">YES</div>
+        <div id="button2" onclick="border2(); saveAnswer(2)">NO</div>
+        <script src="buttons/yes3.js"></script>
+    </div>
+
+    <!-- footer -->
+    <div id="footercontainer" onclick="GoToNext()">
+        <h2 id="next_text"  >Let's get started!</h2>
+        <img id="next_icon" src="imgs/next.png" alt="nexticon">
+        <script src="footer/footer_script.js"></script>
+    </div>
+
+<script src="tutorial2script.js"></script>
+<script src="tutorial2.js"></script>
+</body>
+
+</html>
