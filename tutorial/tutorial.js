@@ -5,6 +5,8 @@ function GoToNext() {
         document.querySelector("#ind1").style.display = "flex";
         document.querySelector("#ded1").style.display = "flex";
         document.querySelector("#button1").style.display = "flex";
+        document.querySelector("#tutorialImage").style.display = "none";
+        document.querySelector("#next_icon").style.display = "none";
         //display buttons
     }
     document.querySelector("#title").innerText = tut[tut_ind].title;
