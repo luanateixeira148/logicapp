@@ -54,5 +54,4 @@ var tut = [
         next_text:"",
         next_icon:""
     }
-
 ]

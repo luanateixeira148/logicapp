@@ -1,19 +1,6 @@
 
 function GoToNext() {
     tut_ind++;
-    if(tut_ind === 5){
-        document.querySelector("#ind1").style.display = "flex";
-        document.querySelector("#ded1").style.display = "flex";
-        document.querySelector("#button1").style.display = "flex";
-        document.querySelector("#tutorialImage").style.display = "none";
-        document.querySelector("#next_icon").style.display = "none";
-        //display buttons
-    }
-    else {
-        document.querySelector("#ind1").style.display = "none";
-        document.querySelector("#ded1").style.display = "none";
-        document.querySelector("#button1").style.display = "none";
-    }
     document.querySelector("#title").innerText = tut[tut_ind].title;
     document.querySelector("#text1").innerText = tut[tut_ind].text1;
     document.querySelector("#tutorialImage").src = tut[tut_ind].tutorialImage;
