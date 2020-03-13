@@ -63,8 +63,8 @@
                 What type of reasoning is this?
             </h3>
             <div id="buttonscontainer">
-                <div id="ind2" onclick="border1()"><h4>INDUCTIVE</h4></div>
-                <div id="ded2" onclick="border2()"><h4>DEDUCTIVE</h4></div>
+                <div id="ind2" onclick="border1(); quizSaveAnswer(1)"><h4>INDUCTIVE</h4></div>
+                <div id="ded2" onclick="border2(); quizSaveAnswer(2)"><h4>DEDUCTIVE</h4></div>
                 <script src="buttons/ind2.js"></script>
             </div>
         </div>
@@ -76,9 +76,8 @@
 
     <!-- footer -->
     <div id="footercontainer" onclick="quizGoToNext()">
-        <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
+        <h2 id="next_text">Let's get started!</h2>
         <img id="next_icon" src="imgs/next.png" alt="nexticon">
-        <script src="footer/footer_script.js"></script>
     </div>
 
     <script src="quiz_array.js"></script>
