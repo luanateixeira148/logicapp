@@ -28,11 +28,40 @@
     </div>
 
 
+<!-- TUTORIAL 2 -->
+
+<!-- Green and Red div -->
+        <div id="rightwrong"><h1>RIGHT!</h1></div>
+
+        <div id="tutorial2content">
+            <p id="text1">
+                Dogs cannot fly.<br>
+                Buddy is a dog. <br>
+                Therefore Buddy cannot fly.
+            </p>
+            <img src="imgs/flying.png" id="tut2image">
+            <h3 id="text2">
+                Do you think this statement is true?
+            </h3>
+        </div>
+
+        <!-- buttons -->
+        <div id="buttonscontainer">
+            <div id="button1" onclick="border1(); tutorial2SaveAnswer(1)">YES</div>
+            <div id="button2" onclick="border2(); tutorial2SaveAnswer(2)">NO</div>
+            <script src="tutorial2/buttons/yes3.css"></script>
+        </div>
 
 <!-- footer -->
     <div id="footercontainer" onclick="quizGoToNext()">
         <h2 id="next_text">Let's get started!</h2>
         <img id="next_icon" src="imgs/next.png" alt="nexticon">
     </div>
+
+
+<!-- scripts -->
+<script src="tutorial2/tutorial2script.js"></script>
+<script src="tutorial2/tutorial2.js"></script>
+
 </body>
 </html>
