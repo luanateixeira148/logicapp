@@ -1,4 +1,4 @@
-var tut_ind =0;
+var tut_ind = 0;
 
 var tut = [
 {title: "Deductive Reasoning",
@@ -29,7 +29,7 @@ next_text: "Next",
 },
 
 {title: "Inductive Reasoning",
-text1: "In Buddy loves swimming. Buddy is a dog. Therefore, all dogs love swimming.",
+text1: "Buddy loves swimming. Buddy is a dog. Therefore, all dogs love swimming.",
 tut2image: "imgs/shower.png",
 text2: "Do you think this statement is true?",
 next_text: "Check Answer",
@@ -60,12 +60,5 @@ tut2image: "imgs/love.png",
 text2: "",
 next_text: "Start the Quiz",
 }
-
-
-
-
-
-
-
 
 ]
