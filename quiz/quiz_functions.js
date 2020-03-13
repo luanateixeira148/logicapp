@@ -9,7 +9,7 @@ function quizSaveAnswer(n) {
 
 function quizGoToNext() {
     console.log(quiz_answer)
-    if (quiz_answer === 1){
+        if (quiz_answer === quiz[quiz_ind].answer){
         document.querySelector("#title").innerText = quiz[quiz_ind].right.title;
         document.querySelector("#text").innerText = quiz[quiz_ind].right.text;
         document.querySelector("#quizimg").src = quiz[quiz_ind].right.quizimg;
@@ -26,7 +26,7 @@ function quizGoToNext() {
         quiz_answer = 0;
     }
 
-    else if (quiz_answer === 2) {
+    else if (quiz_answer === quiz[quiz_ind].notanswer) {
         document.querySelector("#title").innerText = quiz[quiz_ind].wrong.title;
         document.querySelector("#text").innerText = quiz[quiz_ind].wrong.text;
         document.querySelector("#quizimg").src = quiz[quiz_ind].wrong.quizimg;
