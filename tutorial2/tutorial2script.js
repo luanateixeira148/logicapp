@@ -1,6 +1,6 @@
-var tut_ind = 0;
+var tut2_ind = 0;
 
-var tut = [
+var tut2 = [
     {
         title: "Deductive Reasoning",
         text1: "Dogs cannot fly. Buddy is a dog, therefore Buddy cannot fly.",
