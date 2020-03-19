@@ -7,6 +7,8 @@ var tut = [
         tut2image: "imgs/flying.png",
         text2: "Do you think this statement is true?",
         next_text: "Check Answer",
+        answer:1,
+        notanswer:2,
         right: {
             title: "Deductive Reasoning",
             text1: "In Deductive reasoning, we can get to a conclusion based on at least two true statements.",
@@ -29,6 +31,8 @@ var tut = [
         tut2image: "imgs/shower.png",
         text2: "Do you think this statement is true?",
         next_text: "Check Answer",
+        answer:1,
+        notanswer:2,
         right: {
             title: "Inductive Reasoning",
             text1: "In Inductive reasoning, you get to a general conclusion based on two specific instances. The conclusion is not certain, but MIGHT be true.",

@@ -9,7 +9,7 @@ function tutorial2SaveAnswer(n) {
 }
 
 function Tutorial2GoToNext() {
-    if (tut_answer === 1) {
+    if (tut_answer === tut[tut_ind].answer){
         //show correct text
         document.querySelector("#title").innerText = tut[tut_ind].right.title;
         document.querySelector("#text1").innerText = tut[tut_ind].right.text1;
@@ -24,7 +24,7 @@ function Tutorial2GoToNext() {
         tut_answer = 0;
     }
 
-    else if (tut_answer === 2) {
+    else if (tut_answer === tut[tut_ind].notanswer) {
         document.querySelector("#title").innerText = tut[tut_ind].wrong.title;
         document.querySelector("#text1").innerText = tut[tut_ind].wrong.text1;
         document.querySelector("#tut2image").src = tut[tut_ind].wrong.tut2image;
