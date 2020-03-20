@@ -9,7 +9,7 @@ function tutorial2SaveAnswer(n) {
 }
 
 function tutorial2GoToNext() {
-    console.log(tut2_answer)
+    console.log(tut2_answer) 
     if (tut2_answer === 1) {
         //show correct text
         document.querySelector("#title").innerText = tut2[tut2_ind].right.title;
@@ -50,9 +50,16 @@ function tutorial2GoToNext() {
         document.querySelector("#tut2image").src = tut2[tut2_ind].tut2image;
         document.querySelector("#text2").innerText = tut2[tut2_ind].text2;
         document.querySelector("#next_text").innerText = tut2[tut2_ind].next_text;
-
-
     }
+    if (tut2_ind === 3) {
+        document.querySelector("#tutorial2page").style.display = "none";
+        document.querySelector("#quizpage").style.display = "block";
+        return false;
+    }
+   
+    document.querySelector("#tutorial2page").style.display = "block";
+    document.querySelector("#quizpage").style.display = "none";
+    return false;
 
 }
 
