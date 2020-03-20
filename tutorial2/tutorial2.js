@@ -8,7 +8,7 @@ function tutorial2SaveAnswer(n) {
     tut2_answer = n;
 }
 
-function Tutorial2GoToNext() {
+function tutorial2GoToNext() {
     console.log(tut2_answer)
     if (tut2_answer === 1) {
         //show correct text
