@@ -12,7 +12,7 @@ function Tutorial2GoToNext() {
     if (tut2_answer === 1) {
         //show correct text
         document.querySelector("#title").innerText = tut2[tut_ind2].right.title;
-        document.querySelector("#text1").innerText = tut2[tut_ind2]].right.text1;
+        document.querySelector("#text1").innerText = tut2[tut_ind2].right.text1;
         document.querySelector("#tut2image").src = tut2[tut_ind2].right.tut2image;
         document.querySelector("#text2").innerText = tut2[tut_ind2].right.text2;
         document.querySelector("#next_text").innerText = tut2[tut_ind2].right.next_text;

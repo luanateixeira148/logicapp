@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="tutorial/header/menu_styles.css">
 
     <!-- TUTORIAL 2 -->
-    <link rel="stylesheet" href="content/content_styles.css">
-    <link rel="stylesheet" href="header/menu_styles.css">
-    <link rel="stylesheet" href="footer/footer_styles.css">
-    <link rel="stylesheet" href="buttons/yes3.css">
+    <link rel="stylesheet" href="tutorial2/content/content_styles.css">
+    <link rel="stylesheet" href="tutorial2/header/menu_styles.css">
+    <link rel="stylesheet" href="tutorial2/footer/footer_styles.css">
+    <link rel="stylesheet" href="tutorial2/buttons/yes3.css">
 
     <!-- QUIZ -->
-    <link rel="stylesheet" href="content/content_styles.css">
-    <link rel="stylesheet" href="header/menu_styles.css">
-    <link rel="stylesheet" href="footer/footer_styles.css">
-    <link rel="stylesheet" href="buttons/ind2.css">
-    <link rel="stylesheet" href="progressionbar/progression.css" />
+    <link rel="stylesheet" href="quiz/content/content_styles.css">
+    <link rel="stylesheet" href="quiz/header/menu_styles.css">
+    <link rel="stylesheet" href="quiz/footer/footer_styles.css">
+    <link rel="stylesheet" href="quiz/buttons/ind2.css">
+    <link rel="stylesheet" href="quiz/progressionbar/progression.css" />
 
     <!-- LAST PAGE -->
-    <link rel="stylesheet" href="footer/footer_styles.css">
-    <link rel="stylesheet" href="content/content.css">
-    <link rel="stylesheet" href="header/menu_styles.css">
+    <link rel="stylesheet" href="lastpage/footer/footer_styles.css">
+    <link rel="stylesheet" href="lastpage/content/content.css">
+    <link rel="stylesheet" href="lastpage/header/menu_styles.css">
 
     <!-- fonts -->
     <link rel="stylesheet" href="fonts.css">
@@ -72,12 +72,12 @@
 <div id="secondsection">
         <!-- header -->
     <div id="headercontainer" onclick="toggleNavigation()">
-        <img id="quizButton" src="imgs/quiz.svg" alt="">
-        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
-        <img id="homeButton" src="imgs/home.svg" alt="">
-        <img id="menuButton" src="imgs/menu.svg" alt="">
+        <img id="quizButton" src="tutorial2/imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="tutorial2/imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="tutorial2/imgs/home.svg" alt="">
+        <img id="menuButton" src="tutorial2/imgs/menu.svg" alt="">
         <h1 id="title">Deductive Reasoning</h1>
-        <script src="header/menu_script.js"></script>
+        <script src="tutorial2/header/menu_script.js"></script>
     </div>
     
     <!-- content -->
@@ -90,7 +90,7 @@
             Buddy is a dog. <br>
             Therefore Buddy cannot fly.
         </p>
-        <img src="flying.png" id="tut2image">
+        <img src="tutorial2/flying.png" id="tut2image">
         <h3 id="text2">
             Do you think this statement is true?
         </h3>
@@ -100,14 +100,14 @@
     <div id="buttonscontainer">
         <div id="button1" onclick="border1(); tutorial2SaveAnswer(1)">YES</div>
         <div id="button2" onclick="border2(); tutorial2SaveAnswer(2)">NO</div>
-        <script src="buttons/yes3.js"></script>
+        <script src="tutorial2/buttons/yes3.js"></script>
     </div>
 
     <!-- footer -->
     <div id="footercontainer" onclick="Tutorial2GoToNext()">
         <h2 id="next_text"  >Let's get started!</h2>
-        <img id="next_icon" src="imgs/next.png" alt="nexticon">
-        <script src="footer/footer_script.js"></script>
+        <img id="next_icon" src="tutorial2/imgs/next.png" alt="nexticon">
+        <script src="tutorial2/footer/footer_script.js"></script>
     </div>
 </div>
 
@@ -115,12 +115,12 @@
 <div id="thirdsection">
     <!-- header -->
     <div id="headercontainer" onclick="toggleNavigation()">
-        <img id="quizButton" src="imgs/quiz.svg" alt="">
-        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
-        <img id="homeButton" src="imgs/home.svg" alt="">
-        <img id="menuButton" src="imgs/menu.svg" alt="">
+        <img id="quizButton" src="quiz/imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="quiz/imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="quiz/imgs/home.svg" alt="">
+        <img id="menuButton" src="quiz/imgs/menu.svg" alt="">
         <h1 id="title">Question 1</h1>
-        <script src="header/menu_script.js"></script>
+        <script src="quiz/header/menu_script.js"></script>
     </div>
 
     <!-- content -->
@@ -134,7 +134,7 @@
         <div id="topbar">
             <div id="progressionBar">
                 <div id="progression"></div>
-                <script src="progressionbar/progression.js"></script>
+                <script src="quiz/progressionbar/progression.js"></script>
             </div>
         </div>
 
@@ -146,7 +146,7 @@
                 </p>
             </div>
             <div id="quizimgcontainer">
-                <img src="imgs/hockey1.png" id="quizimg">
+                <img src="quiz/imgs/hockey1.png" id="quizimg">
             </div>
         </div>
 
@@ -158,7 +158,7 @@
             <div id="buttonscontainer">
                 <div id="ind2" onclick="border1(); quizSaveAnswer()"><h4>INDUCTIVE</h4></div>
                 <div id="ded2" onclick="border2(); quizSaveAnswer(2)"><h4>DEDUCTIVE</h4></div>
-                <script src="buttons/ind2.js"></script>
+                <script src="quiz/buttons/ind2.js"></script>
             </div>
         </div>
         <div id="bottomanswer">
@@ -170,42 +170,42 @@
     <!-- footer -->
     <div id="footercontainer" onclick="quizGoToNext()">
         <h2 id="next_text">Let's get started!</h2>
-        <img id="next_icon" src="imgs/next.png" alt="nexticon">
+        <img id="next_icon" src="quiz/imgs/next.png" alt="nexticon">
     </div>
 
-    <script src="quiz_array.js"></script>
-    <script src="quiz_functions.js"></script>
+    <script src="quiz/quiz_array.js"></script>
+    <script src="quiz/quiz_functions.js"></script>
 </div>
 
     <!-- LASTPAGE -->
 <div id="forthsection">
     <!-- Header -->
-    <div id="headercontainer" onclick="toggleNavigation()">
-        <img id="quizButton" src="imgs/quiz.svg" alt="">
-        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
-        <img id="homeButton" src="imgs/home.svg" alt="">
-        <img id="menuButton" src="imgs/menu.svg" alt="">
+    <!-- <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="lastpage/imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="lastpage/imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="lastpage/imgs/home.svg" alt="">
+        <img id="menuButton" src="lastpage/imgs/menu.svg" alt="">
         <h1 id="title">What is reasoning</h1>
-        <script src="header/menu_script.js"></script>
-    </div>
+        <script src="lastpage/header/menu_script.js"></script>
+    </div> -->
 
     <!-- Content -->
-    <div id="content">
+    <!-- <div id="content">
         <h2 id="text1">You better learn</h2>
-        <img id="tutorialImage" src="imgs/boyidea.png" alt="">
+        <img id="tutorialImage" src="lastpage/imgs/boyidea.png" alt="">
         <h2 id="text2">what reasoning is.</h2>
-    </div>
+    </div> -->
 
     <!-- Footer -->
-    <div id="footercontainer" onclick="GoToNext()">
+    <!-- <div id="footercontainer" onclick="GoToNext()">
         <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
-        <img id="next_icon" src="imgs/next.png" alt="nexticon">
-        <script src="footer/footer_script.js"></script>
-    </div>
+        <img id="next_icon" src="lastpage/imgs/next.png" alt="nexticon">
+        <script src="lastpage/footer/footer_script.js"></script>
+    </div> -->
 
     <!-- Script -->
-    <script src="lastpage_script.js"></script>
-    <script src="lastpage.js"></script>
+    <!-- <script src="lastpage/lastpage_script.js"></script>
+    <script src="lastpage/lastpage.js"></script> -->
 </div>    
 
 <script src="app_script.js"></script>
