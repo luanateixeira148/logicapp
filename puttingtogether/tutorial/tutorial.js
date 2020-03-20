@@ -8,6 +8,10 @@ document.querySelector("#next_icon").src = tut[tut_ind].next_icon;
 
 function TutorialGoToNext() {
     if (tut_ind >= 5) {
+        document.querySelector("#firstsection").style.display = "none";
+        document.querySelector("#secondsection").style.display = "block";
+        document.querySelector("#thirdsection").style.display = "none";
+        document.querySelector("#forthsection").style.display = "none";
         return false;
     }
     tut_ind++;

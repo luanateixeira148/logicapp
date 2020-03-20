@@ -1,4 +1,4 @@
-var tut2_ind = 0;
+var tut_ind2 = 0;
 
 var tut2 = [
     {
@@ -7,8 +7,6 @@ var tut2 = [
         tut2image: "tutorial2/imgs/flying.png",
         text2: "Do you think this statement is true?",
         next_text: "Check Answer",
-        answer:1,
-        notanswer:2,
         right: {
             title: "Deductive Reasoning",
             text1: "In Deductive reasoning, we can get to a conclusion based on at least two true statements.",
@@ -16,7 +14,6 @@ var tut2 = [
             text2: "In this example, 'Dogs cannot fly'  and 'Buddy is a dog' are two  true statements, so the conclusion is true.",
             next_text: "Next",
         },
-        //1we need a green div on top of the page- Right},
         wrong: {
             title: "Deductive Reasoning",
             text1: "In Deductive reasoning, we can get to a conclusion based on at least two true statements.",
@@ -31,8 +28,6 @@ var tut2 = [
         tut2image: "tutorial2/imgs/shower.png",
         text2: "Do you think this statement is true?",
         next_text: "Check Answer",
-        answer:2,
-        notanswer:1,
         right: {
             title: "Inductive Reasoning",
             text1: "In Inductive reasoning, you get to a general conclusion based on two specific instances. The conclusion is not certain, but MIGHT be true.",
@@ -44,11 +39,9 @@ var tut2 = [
                 text1: "In Inductive reasoning, you get to a general conclusion based on two specific instances. The conclusion is not certain, but MIGHT be true.",
                 tut2image: "tutorial2/imgs/shower.png",
                 text2: "In this example, “Buddy loves swimming” and “Buddy is a dog” but you cannot generalize that all dogs love swimming.",
-                next_text: "Next",},
- },
-
-    
- 
+                next_text: "Next",
+            },
+    },
 
     {
         title: "Quiz Time",
@@ -56,6 +49,6 @@ var tut2 = [
         tut2image: "tutorial2/imgs/love.png",
         text2: "",
         next_text: "Start the Quiz",
-    }
+    },
 
 ]

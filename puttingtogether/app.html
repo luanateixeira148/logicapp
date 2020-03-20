@@ -70,7 +70,7 @@
 
     <!-- TUTORIAL 2 -->
 <div id="secondsection">
-        <!-- header -->
+    <!-- header -->
     <div id="headercontainer" onclick="toggleNavigation()">
         <img id="quizButton" src="tutorial2/imgs/quiz.svg" alt="">
         <img id="tutorialButton" src="tutorial2/imgs/tutorial.svg" alt="">
@@ -90,7 +90,7 @@
             Buddy is a dog. <br>
             Therefore Buddy cannot fly.
         </p>
-        <img src="tutorial2/flying.png" id="tut2image">
+        <img src="tutorial2/imgs/flying.png" id="tut2image">
         <h3 id="text2">
             Do you think this statement is true?
         </h3>
@@ -98,17 +98,21 @@
 
     <!-- buttons -->
     <div id="buttonscontainer">
-        <div id="button1" onclick="border1(); tutorial2SaveAnswer(1)">YES</div>
-        <div id="button2" onclick="border2(); tutorial2SaveAnswer(2)">NO</div>
-        <script src="tutorial2/buttons/yes3.js"></script>
+        <div id="button1" onclick="border1()" onclick="tutorial2SaveAnswer(1)">YES</div>
+        <div id="button2" onclick="border2()" onclick="tutorial2SaveAnswer(2)">NO</div>
+        <script src="tutorial2/tutorial2.js"></script>
+        <!-- <script src="tutorial2/buttons/yes3.js"></script> -->
     </div>
 
     <!-- footer -->
     <div id="footercontainer" onclick="Tutorial2GoToNext()">
-        <h2 id="next_text"  >Let's get started!</h2>
+        <h2 id="next_text">Let's get started!</h2>
         <img id="next_icon" src="tutorial2/imgs/next.png" alt="nexticon">
-        <script src="tutorial2/footer/footer_script.js"></script>
+        <!-- <script src="tutorial2/footer/footer_script.js"></script> -->
     </div>
+
+<!-- <script src="tutorial2/tutorial2script.js"></script> -->
+<script src="tutorial2/tutorial2.js"></script>
 </div>
 
     <!-- QUIZ -->
@@ -155,7 +159,7 @@
             <h3 id="question">
                 What type of reasoning is this?
             </h3>
-            <div id="buttonscontainer">
+            <div id="qbuttonscontainer">
                 <div id="ind2" onclick="border1(); quizSaveAnswer()"><h4>INDUCTIVE</h4></div>
                 <div id="ded2" onclick="border2(); quizSaveAnswer(2)"><h4>DEDUCTIVE</h4></div>
                 <script src="quiz/buttons/ind2.js"></script>
