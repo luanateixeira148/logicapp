@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- TUTORIAL -->
+    <link rel="stylesheet" href="tutorial/footer/footer_styles.css">
+    <link rel="stylesheet" href="tutorial/content/content.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+
+    <!-- TUTORIAL 2 -->
+    <link rel="stylesheet" href="tutorial2/content/content_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+    <link rel="stylesheet" href="tutorial2/footer/footer_styles.css">
+    <link rel="stylesheet" href="tutorial2/buttons/yes3.css">
+
+    <!-- QUIZ -->
+    <link rel="stylesheet" href="quiz/content/content_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+    <link rel="stylesheet" href="quiz/footer/footer_styles.css">
+    <link rel="stylesheet" href="quiz/buttons/ind2.css">
+    <link rel="stylesheet" href="quiz/progressionbar/progression.css">
+
+    <!-- LAST PAGE -->
+    <link rel="stylesheet" href="lastpage/footer/footer_styles.css">
+    <link rel="stylesheet" href="lastpage/content/content.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- TUTORIAL -->
+<div id="firstsection">
+        <!-- Header -->
+    <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="tutorial/imgs/quiz.svg" alt="" onclick="GoToQuiz()">
+        <img id="tutorialButton" src="tutorial/imgs/tutorial.svg" alt="" onclick="GoToTutorial()">
+        <img id="homeButton" src="tutorial/imgs/home.svg" alt="" onclick="GoToHome()">
+        <img id="menuButton" src="tutorial/imgs/menu.svg" alt="">
+        <h1 id="title">REASONING</h1>
+        <script src="header/menu_script.js"></script>
+    </div>
+
+    <!-- Content -->
+    <div id="content">
+        <h2 id="text1">You better learn</h2>
+        <img id="tutorialImage" src="tutorial/imgs/boyidea.png" alt="">
+        <h2 id="text2">what reasoning is.</h2>
+    </div>
+
+    <!-- Footer -->
+    <div id="footercontainer" onclick="TutorialGoToNext()">
+        <h2 id="next_text">Let's get started!</h2>
+        <img id="next_icon" src="tutorial/imgs/next.png" alt="nexticon">
+        <script src="tutorial/footer/footer_script.js"></script>
+    </div>
+
+    <!-- Script -->
+    <script src="tutorial/tutorial_script.js"></script>
+    <script src="tutorial/tutorial.js"></script>
+</div>
+
+    <!-- TUTORIAL 2 -->
+<div id="secondsection">
+    <!-- header -->
+    <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="tutorial2/imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="tutorial2/imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="tutorial2/imgs/home.svg" alt="">
+        <img id="menuButton" src="tutorial2/imgs/menu.svg" alt="">
+        <h1 id="title2">Deductive Reasoning</h1>
+        <script src="header/menu_script.js"></script>
+    </div>
+    
+    <!-- content -->
+        <!-- Green and Red div -->
+    <div id="rightwrong"><h1>RIGHT!</h1></div>
+
+    <div id="tutorial2content">
+        <p id="text12">
+            Dogs cannot fly.<br>
+            Buddy is a dog. <br>
+            Therefore Buddy cannot fly.
+        </p>
+        <img src="tutorial2/imgs/flying.png" id="tut2image">
+        <h3 id="text22">
+            Do you think this statement is true?
+        </h3>
+    </div>
+
+    <!-- buttons -->
+    <div id="buttonscontainer">
+        <div id="button1" onclick="border1(); tutorial2SaveAnswer(1)" onclick="tutorial2SaveAnswer(1)">YES</div>
+        <div id="button2" onclick="border2(); tutorial2SaveAnswer(2)" onclick="tutorial2SaveAnswer(2)">NO</div>
+        <script src="tutorial2/tutorial2.js"></script>
+        <!-- <script src="tutorial2/buttons/yes3.js"></script> -->
+    </div>
+
+    <!-- footer -->
+    <div id="footercontainer" onclick="Tutorial2GoToNext()">
+        <h2 id="next_text">Let's get started!</h2>
+        <img id="next_icon" src="tutorial2/imgs/next.png" alt="nexticon">
+        <!-- <script src="tutorial2/footer/footer_script.js"></script> -->
+    </div>
+
+<script src="tutorial2/tutorial2script.js"></script>
+<script src="tutorial2/tutorial2.js"></script>
+</div>
+
+    <!-- QUIZ -->
+<div id="thirdsection">
+    <!-- header -->
+    <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="quiz/imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="quiz/imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="quiz/imgs/home.svg" alt="">
+        <img id="menuButton" src="quiz/imgs/menu.svg" alt="">
+        <h1 id="title">Question 1</h1>
+        <script src="header/menu_script.js"></script>
+    </div>
+
+    <!-- content -->
+    
+        <!-- right and wrong div -->
+    <div id="questionrightwrong">
+        <h1>RIGHT!</h1>
+    </div>
+
+    <div id="content">
+        <div id="topbar">
+            <div id="progressionBar">
+                <div id="progression"></div>
+                <script src="quiz/progressionbar/progression.js"></script>
+            </div>
+        </div>
+
+        <div id="contentQuiz">
+            <div id="contenttext">
+                <p id="text">
+                    The CANUCKS have LOST their last seven games. <br>
+                    Thus, they will probably lose their next game.
+                </p>
+            </div>
+            <div id="quizimgcontainer">
+                <img src="quiz/imgs/hockey1.png" id="quizimg">
+            </div>
+        </div>
+
+        <!-- buttons -->
+        <div id="questioncontainer">
+            <h3 id="question">
+                What type of reasoning is this?
+            </h3>
+            <div id="questionbuttonscontainer">
+                <div id="ind2" onclick="border3(); quizSaveAnswer(1)"><h4>INDUCTIVE</h4></div>
+                <div id="ded2" onclick="border4(); quizSaveAnswer(2)"><h4>DEDUCTIVE</h4></div>
+                <script src="quiz/buttons/ind2.js"></script>
+            </div>
+        </div>
+        <div id="bottomanswer">
+            <h4>This is</h4>
+            <h1>INDUCTIVE REASONING</h1>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footercontainer" onclick="quizGoToNext()">
+        <h2 id="next_text">Let's get started!</h2>
+        <img id="next_icon" src="quiz/imgs/next.png" alt="nexticon">
+    </div>
+
+    <script src="quiz/quiz_array.js"></script>
+    <script src="quiz/quiz_functions.js"></script>
+</div>
+
+    <!-- LASTPAGE -->
+<div id="forthsection">
+    <!-- Header -->
+    <!-- <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="lastpage/imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="lastpage/imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="lastpage/imgs/home.svg" alt="">
+        <img id="menuButton" src="lastpage/imgs/menu.svg" alt="">
+        <h1 id="title">What is reasoning</h1>
+        <script src="header/menu_script.js"></script>
+    </div> -->
+
+    <!-- Content -->
+    <!-- <div id="content">
+        <h2 id="text1"></h2>
+        <img id="finalImage" src="" alt="">
+        <h2 id="text2"></h2>
+    </div> -->
+
+    <!-- Footer -->
+    <!-- <div id="footercontainer" onclick="takeQuizAgain()">
+        <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
+        <img id="next_icon" src="lastpage/imgs/next.png" alt="nexticon">
+        <script src="lastpage/footer/footer_script.js"></script>
+    </div> -->
+
+    <!-- Script -->
+    <!-- <script src="lastpage/lastpage_script.js"></script> -->
+    <!-- <script src="lastpage/lastpage.js"></script> -->
+</div>    
+
+<script src="app_script.js"></script>
+
+</body>
+</html>

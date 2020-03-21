@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: #5B4392;
+}
+
+h2 {
+    /* next button */
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h3 {
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h4 {
+    /* yellow buttons */
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}

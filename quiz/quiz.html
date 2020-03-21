@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content/content_styles.css">
+    <link rel="stylesheet" href="header/menu_styles.css">
+    <link rel="stylesheet" href="footer/footer_styles.css">
+    <link rel="stylesheet" href="buttons/ind2.css">
+    <link rel="stylesheet" href="progressionbar/progression.css" />
+    
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header -->
+    <div id="headercontainer" onclick="toggleNavigation()">
+        <img id="quizButton" src="imgs/quiz.svg" alt="">
+        <img id="tutorialButton" src="imgs/tutorial.svg" alt="">
+        <img id="homeButton" src="imgs/home.svg" alt="">
+        <img id="menuButton" src="imgs/menu.svg" alt="">
+        <h1 id="title">Question 1</h1>
+        <script src="header/menu_script.js"></script>
+    </div>
+
+    <!-- content -->
+    
+        <!-- right and wrong div -->
+    <div id="rightwrong">
+        <h1>RIGHT!</h1>
+    </div>
+
+    <div id="content">
+        <div id="topbar">
+            <div id="progressionBar">
+                <div id="progression"></div>
+                <script src="progressionbar/progression.js"></script>
+            </div>
+        </div>
+
+        <div id="contentQuiz">
+            <div id="contenttext">
+                <p id="text">
+                    The CANUCKS have LOST their last seven games. <br>
+                    Thus, they will probably lose their next game.
+                </p>
+            </div>
+            <div id="quizimgcontainer">
+                <img src="imgs/hockey1.png" id="quizimg">
+            </div>
+        </div>
+
+        <!-- buttons -->
+        <div id="questioncontainer">
+            <h3 id="question">
+                What type of reasoning is this?
+            </h3>
+            <div id="buttonscontainer">
+                <div id="ind2" onclick="border1(); quizSaveAnswer()"><h4>INDUCTIVE</h4></div>
+                <div id="ded2" onclick="border2(); quizSaveAnswer(2)"><h4>DEDUCTIVE</h4></div>
+                <script src="buttons/ind2.js"></script>
+            </div>
+        </div>
+        <div id="bottomanswer">
+            <h4>This is</h4>
+            <h1>INDUCTIVE REASONING</h1>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footercontainer" onclick="quizGoToNext()">
+        <h2 id="next_text">Let's get started!</h2>
+        <img id="next_icon" src="imgs/next.png" alt="nexticon">
+    </div>
+
+    <script src="quiz_array.js"></script>
+    <script src="quiz_functions.js"></script>
+</body>
+
+</html>

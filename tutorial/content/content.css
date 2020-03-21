@@ -1,0 +1,15 @@
+#content {
+    background-color: #FFF8D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tutorialImage {
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+}

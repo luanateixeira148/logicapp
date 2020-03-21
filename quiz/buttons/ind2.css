@@ -1,0 +1,17 @@
+#ind2, #ded2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:95px;
+    background-color:#F8DD67;
+    box-shadow: 1px 1px 5px grey;
+    text-align: center;
+    margin: 10px;
+}
+
+#questionbuttonscontainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
