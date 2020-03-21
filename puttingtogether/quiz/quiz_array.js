@@ -16,6 +16,7 @@ var quiz = [
             quizimg: "quiz/imgs/hockey1.png",
             next_text:"Next Question",
             thisis:"INDUCTIVE REASONING",
+            q1: 2,
         },
         wrong: {
             title: "Question 01",
@@ -23,6 +24,7 @@ var quiz = [
             quizimg: "quiz/imgs/hockey1.png",
             next_text:"Next Question",
             thisis:"INDUCTIVE REASONING",
+            q1: 1,
         },
     },    
 
@@ -41,6 +43,7 @@ var quiz = [
             quizimg: "quiz/imgs/kidschool.png",
             next_text:"Next Question",
             thisis:"DEDUCTIVE REASONING",
+            q2: 2,
         },
         wrong: {
             title: "Question 02",
@@ -48,6 +51,7 @@ var quiz = [
             quizimg: "quiz/imgs/kidschool.png",
             next_text:"Next Question",
             thisis:"DEDUCTIVE REASONING",
+            q2: 1,
         },
     },
 
@@ -66,6 +70,7 @@ var quiz = [
             quizimg: "quiz/imgs/ostrich.png",
             next_text:"Check Result",
             thisis:"DEDUCTIVE REASONING",
+            q3: 2,
         },
         wrong: {
             title: "Question 03",
@@ -73,6 +78,7 @@ var quiz = [
             quizimg: "quiz/imgs/ostrich.png",
             next_text:"Check Result",
             thisis:"DEDUCTIVE REASONING",
+            q2: 1,
         }
     }
 ]

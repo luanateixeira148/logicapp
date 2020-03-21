@@ -15,7 +15,6 @@ var tut2 = [
             text2: "In this example, 'Dogs cannot fly'  and 'Buddy is a dog' are two  true statements, so the conclusion is true.",
             next_text: "Next",
         },
-        //1we need a green div on top of the page- Right},
         wrong: {
             title: "Deductive Reasoning",
             text1: "In Deductive reasoning, we can get to a conclusion based on at least two true statements.",
@@ -26,7 +25,7 @@ var tut2 = [
     },
     {
         title: "Inductive Reasoning",
-        text1: "Buddy loves swimming. Buddy is a dog. Therefore, all dogs love swimming." ,
+        text1: "Buddy loves swimming. Buddy is a dog. Therefore, all dogs love swimming.",
         tut2image: "tutorial2/imgs/shower.png",
         text2: "Do you think this statement is true?",
         next_text: "Check Answer",

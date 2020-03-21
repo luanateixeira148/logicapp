@@ -9,7 +9,7 @@ function nextPage() {
         document.querySelector("#secondsection").style.display = "block";
         document.querySelector("#thirdsection").style.display = "none";
         document.querySelector("#forthsection").style.display = "none";
-    } else if (tut_ind2 === 2) {
+    } else if (tut2_ind === 2) {
         document.querySelector("#firstsection").style.display = "none";
         document.querySelector("#secondsection").style.display = "none";
         document.querySelector("#thirdsection").style.display = "block";

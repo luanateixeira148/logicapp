@@ -1,8 +1,8 @@
-document.querySelector("#title").innerText = tut2[tut2_ind].title;
-document.querySelector("#text1").innerText = tut2[tut2_ind].text1;
-document.querySelector("#tut2image").src = tut2[tut2_ind].tut2image;
-document.querySelector("#text2").innerText = tut2[tut2_ind].text2;
-document.querySelector("#next_text").innerText = tut2[tut2_ind].next_text;
+// document.querySelector("#title").innerText = tut2[tut2_ind].title;
+// document.querySelector("#text1").innerText = tut2[tut2_ind].text1;
+// document.querySelector("#tut2image").src = tut2[tut2_ind].tut2image;
+// document.querySelector("#text2").innerText = tut2[tut2_ind].text2;
+// document.querySelector("#next_text").innerText = tut2[tut2_ind].next_text;
 
 function border1(){
     document.getElementById("button1").style.border = "2px solid #7558B7";
@@ -29,9 +29,9 @@ function Tutorial2GoToNext() {
     console.log(tut2_answer)
     if (tut2_answer === tut2[tut2_ind].answer) {
         document.querySelector("#title").innerText = tut2[tut2_ind].right.title;
-        document.querySelector("#text1").innerText = tut2[tut2_ind].right.text1;
+        document.querySelector("#text12").innerText = tut2[tut2_ind].right.text1;
         document.querySelector("#tut2image").src = tut2[tut2_ind].right.tut2image;
-        document.querySelector("#text2").innerText = tut2[tut2_ind].right.text2;
+        document.querySelector("#text22").innerText = tut2[tut2_ind].right.text2;
         document.querySelector("#next_text").innerText = tut2[tut2_ind].right.next_text;
         document.querySelector("#rightwrong").style.display = "flex";
             document.querySelector("#rightwrong").style.backgroundColor = "#50C878";
@@ -43,9 +43,9 @@ function Tutorial2GoToNext() {
 
     else if (tut2_answer === tut2[tut2_ind].notanswer) {
         document.querySelector("#title").innerText = tut2[tut2_ind].wrong.title;
-        document.querySelector("#text1").innerText = tut2[tut2_ind].wrong.text1;
+        document.querySelector("#text12").innerText = tut2[tut2_ind].wrong.text1;
         document.querySelector("#tut2image").src = tut2[tut2_ind].wrong.tut2image;
-        document.querySelector("#text2").innerText = tut2[tut2_ind].wrong.text2;
+        document.querySelector("#text22").innerText = tut2[tut2_ind].wrong.text2;
         document.querySelector("#next_text").innerText = tut2[tut2_ind].wrong.next_text;
         document.querySelector("#rightwrong").style.display = "flex";
             document.querySelector("#rightwrong").style.backgroundColor = "#fa7070";
@@ -59,16 +59,15 @@ function Tutorial2GoToNext() {
         tut2_ind++;
         document.querySelector("#buttonscontainer").style.display = "flex";
         document.querySelector("#rightwrong").style.display = "none";
-        document.querySelector("#title").innerText = tut2[tut2_ind].title;
-        document.querySelector("#text1").innerText = tut2[tut2_ind].text1;
+        document.querySelector("#title2").innerText = tut2[tut2_ind].title;
+        document.querySelector("#text12").innerText = tut2[tut2_ind].text1;
         document.querySelector("#tut2image").src = tut2[tut2_ind].tut2image;
-        document.querySelector("#text2").innerText = tut2[tut2_ind].text2;
+        document.querySelector("#text22").innerText = tut2[tut2_ind].text2;
         document.querySelector("#next_text").innerText = tut2[tut2_ind].next_text;
-            if (tut2_ind===2)   {
-            document.querySelector("#buttonscontainer").style.display = "none";
+        if (tut2_ind===2)   {
+        document.querySelector("#buttonscontainer").style.display = "none";
    
-     }
-        
+    }
     }
 }
 
