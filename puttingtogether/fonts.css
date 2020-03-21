@@ -29,3 +29,8 @@ p {
     font-size: 16px;
     font-weight: 400;
 }
+
+#firstsection, #secondsection, #thirdsection, #forthsection {
+    background-color: #FFF8D9;
+    
+}
