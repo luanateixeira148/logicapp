@@ -23,12 +23,13 @@
 
 #topbar {
     height: 80px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#rightwrong{
+#questionrightwrong{
     display: none;
     justify-content: center;
     align-items: center;
@@ -38,7 +39,7 @@
 
 }
 
-#rightwrong h1 {
+#questionrightwrong h1 {
     color: white;
 }
 

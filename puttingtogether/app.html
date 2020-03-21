@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="quiz/header/menu_styles.css">
     <link rel="stylesheet" href="quiz/footer/footer_styles.css">
     <link rel="stylesheet" href="quiz/buttons/ind2.css">
-    <link rel="stylesheet" href="quiz/progressionbar/progression.css" />
+    <link rel="stylesheet" href="quiz/progressionbar/progression.css">
 
     <!-- LAST PAGE -->
     <link rel="stylesheet" href="lastpage/footer/footer_styles.css">
@@ -130,7 +130,7 @@
     <!-- content -->
     
         <!-- right and wrong div -->
-    <div id="rightwrong">
+    <div id="questionrightwrong">
         <h1>RIGHT!</h1>
     </div>
 
@@ -159,9 +159,9 @@
             <h3 id="question">
                 What type of reasoning is this?
             </h3>
-            <div id="qbuttonscontainer">
-                <div id="ind2" onclick="border1(); quizSaveAnswer()"><h4>INDUCTIVE</h4></div>
-                <div id="ded2" onclick="border2(); quizSaveAnswer(2)"><h4>DEDUCTIVE</h4></div>
+            <div id="questionbuttonscontainer">
+                <div id="ind2" onclick="border3(); quizSaveAnswer(1)"><h4>INDUCTIVE</h4></div>
+                <div id="ded2" onclick="border4(); quizSaveAnswer(2)"><h4>DEDUCTIVE</h4></div>
                 <script src="quiz/buttons/ind2.js"></script>
             </div>
         </div>
@@ -184,28 +184,28 @@
     <!-- LASTPAGE -->
 <div id="forthsection">
     <!-- Header -->
-    <!-- <div id="headercontainer" onclick="toggleNavigation()">
+    <div id="headercontainer" onclick="toggleNavigation()">
         <img id="quizButton" src="lastpage/imgs/quiz.svg" alt="">
         <img id="tutorialButton" src="lastpage/imgs/tutorial.svg" alt="">
         <img id="homeButton" src="lastpage/imgs/home.svg" alt="">
         <img id="menuButton" src="lastpage/imgs/menu.svg" alt="">
         <h1 id="title">What is reasoning</h1>
         <script src="lastpage/header/menu_script.js"></script>
-    </div> -->
+    </div>
 
     <!-- Content -->
-    <!-- <div id="content">
+    <div id="content">
         <h2 id="text1">You better learn</h2>
         <img id="tutorialImage" src="lastpage/imgs/boyidea.png" alt="">
         <h2 id="text2">what reasoning is.</h2>
-    </div> -->
+    </div>
 
     <!-- Footer -->
-    <!-- <div id="footercontainer" onclick="GoToNext()">
+    <div id="footercontainer" onclick="GoToNext()">
         <h2 id="next_text" onmouseover="underline()">Let's get started!</h2>
         <img id="next_icon" src="lastpage/imgs/next.png" alt="nexticon">
         <script src="lastpage/footer/footer_script.js"></script>
-    </div> -->
+    </div>
 
     <!-- Script -->
     <!-- <script src="lastpage/lastpage_script.js"></script>

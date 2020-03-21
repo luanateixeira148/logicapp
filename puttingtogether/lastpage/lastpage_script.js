@@ -1,5 +1,5 @@
-var tut_ind = 0;
-var tut = [
+var final_ind = 0;
+var final = [
 
     {
         title: "",

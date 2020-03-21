@@ -19,6 +19,13 @@ function tutorial2SaveAnswer(n) {
 }
 
 function Tutorial2GoToNext() {
+    if (tut2_ind >= 2) {
+        document.querySelector("#firstsection").style.display = "none";
+        document.querySelector("#secondsection").style.display = "none";
+        document.querySelector("#thirdsection").style.display = "block";
+        document.querySelector("#forthsection").style.display = "none";
+        return false;
+    }
     console.log(tut2_answer)
     if (tut2_answer === tut2[tut2_ind].answer) {
         document.querySelector("#title").innerText = tut2[tut2_ind].right.title;

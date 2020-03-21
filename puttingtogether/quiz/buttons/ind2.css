@@ -5,13 +5,12 @@
     height:45px;
     width:95px;
     background-color:#F8DD67;
-    /* padding: 10px; */
     box-shadow: 1px 1px 5px grey;
     text-align: center;
     margin: 10px;
 }
 
-#buttonscontainer {
+#questionbuttonscontainer {
     display:flex;
     justify-content: center;
     align-items: center;
