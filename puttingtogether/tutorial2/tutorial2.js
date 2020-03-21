@@ -6,19 +6,21 @@ document.querySelector("#next_text").innerText = tut2[tut2_ind].next_text;
 
 function border1(){
     document.getElementById("button1").style.border = "2px solid #7558B7";
-    document.getElementById("button2").style.border = "none"; }
+    document.getElementById("button2").style.border = "none"; 
+}
 
 function border2(){
         document.getElementById("button2").style.border = "2px solid #7558B7";
-        document.getElementById("button1").style.border = "none"; }
+        document.getElementById("button1").style.border = "none"; 
+    }
 
 function tutorial2SaveAnswer(n) {
     tut2_answer = n;
 }
 
 function Tutorial2GoToNext() {
-    if (tut2_answer === tut2[tut2_ind].answer){
-        //show correct text
+    console.log(tut2_answer)
+    if (tut2_answer === tut2[tut2_ind].answer) {
         document.querySelector("#title").innerText = tut2[tut2_ind].right.title;
         document.querySelector("#text1").innerText = tut2[tut2_ind].right.text1;
         document.querySelector("#tut2image").src = tut2[tut2_ind].right.tut2image;
